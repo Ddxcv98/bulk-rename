@@ -13,4 +13,4 @@ then
     export EDITOR="$vim"
 fi
 
-python "$(dirname $0)/src/main.py" $@
+python "$(dirname "$0")/src/main.py" "$@"
